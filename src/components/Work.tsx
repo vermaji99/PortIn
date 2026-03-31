@@ -59,7 +59,7 @@ const Work = () => {
                 <h3>01</h3>
                 <div>
                   <h4>Jewellery Inventory Management</h4>
-                  <p>MERN Stack</p>
+                  <p>MERN Stack Application</p>
                 </div>
               </div>
               <h4>Tools and features</h4>
@@ -74,11 +74,11 @@ const Work = () => {
                 <h3>02</h3>
                 <div>
                   <h4>Career Dendrogram</h4>
-                  <p>Web Application</p>
+                  <p>3D Web Visualization</p>
                 </div>
               </div>
               <h4>Tools and features</h4>
-              <p>React.js, JavaScript, Node.js, GSAP</p>
+              <p>React.js, Three.js, GSAP, Node.js</p>
             </div>
             <WorkImage image="/images/placeholder.webp" alt="Career Dendrogram" />
           </div>
