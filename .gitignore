@@ -26,3 +26,10 @@ dist-ssr
 
 backup/
 .env
+
+# Temporary and backup files
+temp_vite/
+package.json.bak
+fix_modules.ps1
+test.js
+*.tsbuildinfo
