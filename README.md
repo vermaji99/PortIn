@@ -1,65 +1,69 @@
-# My Portfolio Website - Overview 🚀
+# Interactive 3D Developer Portfolio 🚀
 
-This repository contains the open-source version of my personal portfolio website.  
-Feel free to explore the code and use it for learning and inspiration.
+Welcome to my personal portfolio project! This is a high-performance, interactive web application designed to showcase my skills in modern web development, 3D graphics, and smooth animations.
 
----
+## 🌟 Overview
 
-## ⚠️ Usage Notice
-
-This project is shared for learning purposes only.
-
-Please do NOT:
-- Clone or replicate the full website or design
-- Repost it with minor content changes
-- Use this project for commercial/client work
-- Create tutorials or content using this exact project
-
-If you use parts of the code, you must provide proper credit linking back to the original repository.
-
-Build your own version — don’t just copy.
-
-— Moncy Yohannan
+This project is a deeply customized portfolio that leverages **Three.js** for immersive 3D environments and **GSAP** for advanced, physics-based animations. It's built with a focus on user experience, performance, and clean, modular code.
 
 ---
 
-## 🛠️ Instructions
+## 🛠️ Tech Stack
 
-I have modified the GSAP Club plugins using trial versions.  
-⚠️ Note: Trial plugins cannot be used for production or hosting.
-
-For official GSAP Club plugins, refer here:  
-https://gsap.com/docs/v3/Installation/
-
----
-
-## ⚙️ Tech Stack
-
-React • TypeScript • GSAP • Three.js • WebGL • HTML • CSS • JavaScript
+- **Frontend**: [React](https://reactjs.org/) & [TypeScript](https://www.typescriptlang.org/)
+- **3D Engine**: [Three.js](https://threejs.org/) with [@react-three/fiber](https://github.com/pmndrs/react-three-fiber)
+- **Animations**: [GSAP (GreenSock Animation Platform)](https://greensock.com/gsap/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Styling**: Modern CSS with interactive components
 
 ---
 
-## 🎨 Assets Usage
+## 🚀 Key Features
 
-Some 3D assets included in this repository are free to use for learning purposes.
-
-However:
-
-- The original 3D avatar used on my live portfolio is NOT included in this repository
-- That avatar is a custom asset created over ~1 month
-- It is not open source and not available for reuse
-
-Any usage, extraction, or redistribution of that avatar from my live website is strictly prohibited.
+- **Interactive 3D Character**: A fully rigged and animated 3D character that responds to user input.
+- **Physics-Based Interactions**: Realistic movement and collisions powered by `@react-three/cannon`.
+- **Advanced GSAP Timelines**: Seamless transitions and scroll-triggered animations.
+- **Fully Responsive**: Optimized for all devices, from desktop monitors to mobile screens.
+- **Type-Safe Development**: Built with TypeScript for robustness and maintainability.
 
 ---
 
-![Protfolio-Preview](https://github.com/user-attachments/assets/3c4557e7-6392-4928-b8a9-7b2476ef4edd)
+## ⚙️ Installation & Setup
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/vermaji99/PortIn.git
+   cd PortIn
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production**:
+   ```bash
+   npm run build
+   ```
+
+---
+
+## 🎨 Acknowledgments
+
+This project uses custom 3D assets and advanced animation techniques. 
+*Note: This repository is intended for showcasing my technical capabilities and development style.*
 
 ---
 
 ## 📄 License
 
-This project is licensed under the Personal Portfolio License (PPL) v1.0.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-See the LICENSE file for full details
-
+Developed with ❤️ by **vermaji99**
